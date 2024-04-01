@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 170px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 350px;
+}
+
+/* desafios Clase */
+
+.container_user {
+  /*width: 1200px;
+    height: 600px; 
+  display: flex;*/
+  align-items: center;
+  /*  justify-content: space-between;
+  border-radius: 24px;
+    border: 1px solid #1875E8;
+    box-shadow: 4px 4px 20px 0px rgba(13, 13, 14, 0.15);
+    background-image: url("img/Ruido.png");
+    background-size: 100% 100%; */
+  position: relative;
+}
+
+.texto_parrafo {
+  color: #1875e8;
+  /*    color: #000000; */
+}
+
+.container_input {
+  width: 25%;
+  height: 10px;
+  border-radius: 16px;
+  background-color: #fff;
+  border: none;
+  color: #1875e8;
+  padding: 1rem;
+  font-size: 20px;
+  /*   font-weight: 700; */
+  /*    font-family: 'Inter', sans-serif; */
+}
+
+.container_botones {
+  /*  display: flex; */
+  gap: 0.5rem;
+  /*  padding: 10px; */
+  margin-top: 1rem;
+}
